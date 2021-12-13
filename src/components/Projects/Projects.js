@@ -31,7 +31,7 @@ const Projects = () => (
                 p.visit && <ExternalLinks href={p.visit}>Code</ExternalLinks>
               }
               {
-                p.source && <ExternalLinks href={p.source}>Source</ExternalLinks>
+                p.source && <ExternalLinks href={p.source}>Link</ExternalLinks>
               }
               
             </UtilityList>

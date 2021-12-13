@@ -14,23 +14,28 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'SCO',
+    description: "SCO (Scotia Connect Online), is the online banking application for the business account holders for The Bank of Nova Scotia. I worked on different technologies like JSF, Spring, Spring Web Services, Hibernate, Apache Active MQ, BIRT reporting tool and DB2, etc.",
+      image: '/images/scotia.jpg',
+      tags: ['JSF', 'Java', 'Spring', 'Hibernate', 'Apache ActiveMQ', 'BIRT'],
+    source: 'https://www1.scotiaconnect.scotiabank.com/',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'LEAP',
+    description: "LEAP (Leading Edge Application Platform)is the application is the online banking platform for customers. Bank uses this application for different countries like Mexico, Panama, Chile, and other Caribbean region. The UI pages were developed by the JSF tag library. The middleware was plain java code used to apply different business logics and validations. The back-end was Sybase Database, where the communication of the application was through the Stored Procedures.",
+    image: '/images/scotia2.png',
+    tags: ['JSF', 'java', 'PL/SQL'],
+    source: 'https://www.scotiabank.com/',
     id: 3,
   },
+  {
+    title: 'e-Teller',
+    description: "e-Teller is a teller application used by the internal employees of the bank. The UI of this application is a static web application and written on Angular Js 1.x. Also, I have worked on RESTful Web Services for the back-end integration of Angular Js. For the purpose of fetching and storing the data, there were host systems as well as databases. The eSOA Architecture (written on top of SOAP) to fetch the data from the Data Power. The host machines were IBM Mainframe, and the Database was of Microsoft SQL Server. The application was deployed in IBM WebSphere Application Server.",
+    image: '/images/scotia2.png',
+    tags: ['AngularJs 1', 'java', 'RESTFul', 'SOAP'],
+    id: 4,
+  }
 ];
 
 export const TimeLineData = [
