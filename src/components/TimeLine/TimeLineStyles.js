@@ -73,7 +73,7 @@ export const CarouselItemTitle = styled.h4`
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #FFFFFF;
+  -webkit-text-fill-color: #9cc9e3;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
