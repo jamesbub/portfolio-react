@@ -51,6 +51,7 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  text-decoration: underline;
   &:hover {
     color: #fff;
     opacity: 1;
