@@ -1,20 +1,16 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'DTIx',
+    description: "DTIx(DELPHI Troubleshooting Interface Express) is mostly used by the Field Technicians as well as by the Support Center Technicians to troubleshoot different issues/ faults in the network/ network equipment for various customers. This application supports troubleshooting for different domains provided by Verizon such as FIOS, VBI, HSI, POTS, SPECIALS, OPTICAL. The technicians are allowed to view the Network topology for the Customer by entering the CID, which helps the technicians to understand/ troubleshoot the fault by running the commands on the faulty equipment. This application is also used for the activation and deactivation of customer devices. The front-end side of the application has been developed using ReactJs, supported by the Springboot microservice. DTIx interacts with the backend application DELPHI in order to interact with the real network equipment. This application is also exported as React component which is used by other teams like OMEGA and Optix",
+    image: '/images/dtix.jpg',
+    tags: ['React', 'Redux', 'Java', 'Springboot', 'SQL'],
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'EMS View',
+    description:"The Element Management System (EMS) helps Verizon to troubleshoot/ diagnose the equipment (E9 system by Calix). The application gives the user a hierarchical view of the system starting from the OLT (Optical Line Terminal) all the way to the ONT (Optical Network Terminal). This application is used by the Network Technicians where they can manage the Equipment. I have developed this application using the client-side framework of NextJs and reusing Dtix as the Backend, which talks to the equipment. This application is specially designed to achieve faster loading time by using the \"Code-splitting and Bundling\" and \"Automatic Static Optimization\" feature of NextJs. In order to avoid long polling, we have introduced SSE (Server-Sent Events). Redis Cache has been introduced to cache the responses for failover scenarios. Using wisely selected technologies combined with Docker and Kubernetes we have achieved Zero Downtime for the application.",
+    image: '/images/oltview.png',
+    tags: ['NextJs', 'Redux', 'Axios', 'SSE', 'Java', 'SpringBoot', 'Redis', 'Docker', 'EKS'],
     id: 1,
   },
   {

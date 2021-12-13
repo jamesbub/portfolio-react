@@ -38,6 +38,15 @@ export const TitleContent = styled.div`
 
 `;
 
+export const TagsContent = styled.div`
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+  text-decoration: underline;
+  font-size: 22px;
+  color: #cd9c89;
+  margin-top: 15px;
+`;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -103,10 +112,12 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
 padding: 2rem;
+justify-content: space-evenly;
+flex-wrap: wrap;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+min-width: 50px;
 `
