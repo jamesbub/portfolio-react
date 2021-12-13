@@ -34,9 +34,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2016, text: 'Joined Tech Mahindra as Jr. Software Developer', },
+  { year: 2017, text: 'Promoted as Software Developer', },
+  { year: 2018, text: 'Joined Verizon as Software Developer', },
+  { year: 2019, text: 'Promoted as Sr. Software Developer', },
+  { year: 2020, text: 'Mordenized DTIx UI using React', },
+  { year: 2021, text: 'Planned, Designed, and Developed the EMS view solely using NextJs', },
 ];
