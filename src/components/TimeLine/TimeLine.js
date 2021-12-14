@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -18,16 +18,16 @@ const Timeline = () => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+      //const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+      const scrollLeft = i*152;
       scroll(carouselRef.current, scrollLeft);
     }
   }
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.floor((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
-
+      //const index = Math.floor((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.floor(carouselRef.current.scrollLeft /152);
       setActiveItem(index);
     }
   }
@@ -43,12 +43,8 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-      Hi, My full name is <b><i>Biswajeet Rout.</i></b> I have more than 6 years of experience in the IT industry. I am always keen to learn the new technologies that come out in the market and understand the potential advantages of one on another and choose the best out of all.
-      I love following the keynotes/dev summits presented by the big tech giants like Google IO, Facebook F8, AWS re: Invent, etc. I like to understand/analyze the worth of hot topics like WEB3.0 which most people talk about today. Apart from keeping track of technological movement, I like to spend most of my time playing Badminton, Snooker/pool.
-      </SectionText>
+    <Section id="timeLine">
+      <SectionTitle>TimeLine</SectionTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -113,7 +109,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
+      <SectionDivider colorAlt />
     </Section>
   );
 };

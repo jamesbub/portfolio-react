@@ -7,6 +7,7 @@ import Technologies from './components/Technologies/Technologies';
 import Timeline from './components/TimeLine/TimeLine';
 import Acomplishments from './components/Acomplishments/Acomplishments';
 import { Layout } from './components/layout/Layout';
+import About from "./components/About/About";
 function App() {
   return (
     <Theme>
@@ -17,6 +18,7 @@ function App() {
       </Section>
       <Projects />
       <Technologies />
+      <About/>
       <Timeline />
       <Acomplishments />
       </Layout>

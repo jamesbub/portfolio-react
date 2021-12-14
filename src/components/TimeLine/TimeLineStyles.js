@@ -15,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin: 24px 0 30px 0;
 
   //remove scrollbar
   scrollbar-width: none;  
@@ -29,7 +29,7 @@ export const CarouselContainer = styled.ul`
     scroll-snap-type: x mandatory;
     //touch-action: pan-x;
     justify-content: initial;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
   }
 `
 export const CarouselMobileScrollNode = styled.div`
@@ -126,7 +126,7 @@ export const CarouselButtons = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
   }
 `
 
