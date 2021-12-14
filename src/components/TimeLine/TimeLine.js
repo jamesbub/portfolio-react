@@ -26,7 +26,7 @@ const Timeline = () => {
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.floor((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
       setActiveItem(index);
     }
