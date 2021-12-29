@@ -93,7 +93,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Miscellaneous</ListTitle>
           <ListParagraph>
-            Git, JSON, XML, Eclipse, VS Code, Sonar, Fortify, Black Duck, Splunk <br />
+            Git, JSON, YAML, XML, Eclipse, VS Code, Sonar, Fortify, Black Duck, Splunk <br />
             Jira, Confluence <br/>
             SAFe (Scaled Agile Framework)
           </ListParagraph>
