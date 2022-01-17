@@ -40,7 +40,7 @@ export const Cert = styled.div`
     }
 
     @media ${props => props.theme.breakpoints.sm} {
-    height: 280px;
+    height: 290px;
     padding: 12px;
 
     &:nth-child(2n){
