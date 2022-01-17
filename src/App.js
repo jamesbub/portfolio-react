@@ -8,6 +8,7 @@ import Timeline from './components/TimeLine/TimeLine';
 import Acomplishments from './components/Acomplishments/Acomplishments';
 import { Layout } from './components/layout/Layout';
 import About from "./components/About/About";
+import Certification from "./components/Certification/Certification";
 function App() {
   return (
     <Theme>
@@ -21,6 +22,7 @@ function App() {
       <About/>
       <Timeline />
       <Acomplishments />
+      <Certification/>
       </Layout>
     </Theme>
   );
