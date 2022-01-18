@@ -1,14 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Container, Cert, Img } from './CertificationStyles';
+import { Container, Cert } from './CertificationStyles';
 
 const data = [
   { name: 'DVA'}
 ];
 
-const Certification = () => (
-  <Section>
+const Certification = () => {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = "https://cdn.credly.com/assets/utilities/embed.js";
+    script.async = true;
+  
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
+  return <Section>
     <SectionTitle>Certification</SectionTitle>
     <Container>
       {data.map((cert, index) => (
@@ -21,6 +35,6 @@ const Certification = () => (
     </Container>
     <SectionDivider/>
   </Section>
-);
+}
 
 export default Certification;
