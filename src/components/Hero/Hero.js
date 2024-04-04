@@ -29,7 +29,7 @@ const Hero = (props) => {
           {greetings()}
           </SectionTitle>
           <SectionText>
-            I am a full-stack developer from Odisha, India. Currently, I am working for <i>Verizon</i> and living in Hyderabad. I enjoy providing enterprise solutions on web application design and development using <b>React</b> along with the backend support with <b>J2EE</b> and <b>Database</b>. I also support the application deployment and support in AWS cloud infrastructure.
+            I am a full-stack developer from Odisha, India. Currently, I am working in <i>DBS</i> and living in Hyderabad. I was in <i>DBS Singapore</i> recently. I enjoy providing enterprise solutions on web application design and development using <b>React</b> along with the backend support with <b>Java</b> and <b>Database</b> with industry best practices. I am mostly engaed with low latency application development and deployment in scalable cloud infrastructure with Openshift.
           </SectionText>
           {/* <Button onClick={props.handleClick}>Learn More</Button> */}
         </LeftSection>

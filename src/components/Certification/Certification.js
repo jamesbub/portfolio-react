@@ -22,7 +22,7 @@ const Certification = () => {
     }
   }, []);
 
-  return <Section>
+  return <Section id="certifications">
     <SectionTitle>Certification</SectionTitle>
     <Container>
       {data.map((cert, index) => (

@@ -27,6 +27,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </a>
       </li>
+      <li>
+        <a href="#certifications">
+          <NavLink>Certifications</NavLink>
+        </a>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/jamesbub" target="_blank" rel="noopener noreferrer">

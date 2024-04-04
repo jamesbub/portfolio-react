@@ -14,6 +14,7 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+align-items: start;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -82,6 +83,7 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  white-space: pre-wrap;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   

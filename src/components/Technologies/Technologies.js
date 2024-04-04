@@ -34,7 +34,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End (Development)</ListTitle>
           <ListParagraph>
             HTML, JavaScript, Regex <br />
-            ReactJs, NextJs, Redux, Axios <br />
+            ReactJs, NextJs, Redux, Axios, RSocket <br />
             NodeJs, NPM, Web APIs <br/>
             Jest, Enzyme
           </ListParagraph>
@@ -48,7 +48,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Java, J2EE, Spring Framework, SpringBoot <br />
-            JDBC, AOP, Redis, Maven, SQL <br/>
+            JDBC, AOP, Redis, Maven, SQL, FIX, Aeron, MongoDB <br/>
             JUnit
           </ListParagraph>
         </ListContainer>
@@ -60,7 +60,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>CI/CD</ListTitle>
           <ListParagraph>
-            Jenkins,Blue Ocean, Ansible, Gitlab
+            Jenkins,Blue Ocean, Ansible, Gitlab, BitBucket
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -82,7 +82,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Containerization and Orchestration</ListTitle>
           <ListParagraph>
-            Docker, Kubernetes, ECS, EKS <br />
+            Docker, Kubernetes, Openshift, ECS, EKS <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -93,7 +93,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Miscellaneous</ListTitle>
           <ListParagraph>
-            Git, JSON, YAML, XML, Eclipse, VS Code, Sonar, Fortify, Black Duck, Splunk <br />
+            Git, JSON, YAML, XML, Eclipse, VS Code, Sonar, Fortify, Black Duck, Splunk, LogStash, Kibana <br />
             Jira, Confluence <br/>
             SAFe (Scaled Agile Framework)
           </ListParagraph>
