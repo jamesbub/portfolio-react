@@ -48,7 +48,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Java, J2EE, Spring Framework, SpringBoot <br />
-            JDBC, AOP, Redis, Maven, SQL, FIX, Aeron, MongoDB <br/>
+            JDBC, AOP, Redis, Maven, SQL, FIX, Aeron, Artio, MongoDB <br/>
             JUnit
           </ListParagraph>
         </ListContainer>
