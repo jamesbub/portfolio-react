@@ -3,6 +3,7 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://twitter.com/iBiswajeet" target="_blank" rel="noopener noreferrer">
-            <AiOutlineTwitter size="3rem" />
+            <FaXTwitter size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

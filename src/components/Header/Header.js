@@ -1,8 +1,9 @@
 import React from 'react';
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Header = () => (
   <Container>
@@ -41,7 +42,7 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://twitter.com/iBiswajeet" target="_blank" rel="noopener noreferrer">
-        <AiOutlineTwitter size="3rem" />
+        <FaXTwitter size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
