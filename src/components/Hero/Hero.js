@@ -10,7 +10,7 @@ const Hero = (props) => {
     const day = new Date()
     const hr = day.getHours()
     let greetingsMsg = ''
-    if (hr >= 0 && hr < 12) {
+    if (hr >= 5 && hr < 12) {
       greetingsMsg = 'Good Morning!'
     } else if (hr >= 12 && hr < 17) {
       greetingsMsg = 'Good Afternoon!'
