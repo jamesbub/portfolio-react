@@ -12,7 +12,7 @@ The platform offers:
   6. Transaction cost analysis (PLOT).
   7. P&L data analysis (XPOST).
 
-The traders use the deal blotter to see the Maker/Taker deals. The position Blotter helps to visualize the entire warehouse position accross difference currencies and net P&L in USD. The volume P&L chart draws the graph of volume and the p&L so it gives one glance  of the warehouse position. The DELTA and INVOKE are the 2 core funtionalities of the application. Different models has been developed and calibrated by Quants where they help to maintain the Position in market by applying different hedgers and different rates upon market condition. The application has also PLOT and XPOST which are used for post trade analysis.
+The traders use the deal blotter to see the Maker/Taker deals. The position Blotter helps to visualize the entire warehouse position across difference currencies and net P&L in USD. The volume P&L chart draws the graph of volume and the p&L so it gives one glance of the warehouse position. The DELTA and INVOKE are the 2 core functionalities of the application. Different models have been developed and calibrated by Quants where they help to maintain the Position in market by applying different hedgers and different rates upon market condition. The application has also PLOT and XPOST which are used for post trade analysis.
     `,
     image: '/images/dbs.jpg',
     tags: ['React', 'Redux', 'RSocket', 'Java', 'Springboot', 'SQL', 'FIX', 'Docker', 'Openshift', 'Kafka', 'Redis', 'KDB', 'Aeron IPC', 'Kibana', 'LogStash', ],
@@ -20,7 +20,7 @@ The traders use the deal blotter to see the Maker/Taker deals. The position Blot
   },
   {
     title: 'DBS DNA',
-    description: "DNA stands for Daily News and Analytics. DNA fetches news from different sources like Bloomberg, Twitter via Sprinklr, CryptoCompare and any analyzes through our inhouse developed Machine Learning Model and generates market sentiment and economic data. The model helps the traders to understand the market sentiment against different currencies based on different news. This helps the traders to know the market on glance of a notification pushed to their system through Symphony chatBot.",
+    description: "DNA stands for Daily News and Analytics. DNA fetches news from different sources like Bloomberg, Twitter via Sprinklr, CryptoCompare and any analyzes through our inhouse developed Machine Learning Model and generates market sentiment and economic data. The model helps the traders to understand the market sentiment against different currencies based on different news. This helps the traders to know the market on glance of a notification pushed to their system through Symphony chatbot.",
     image: '/images/dbs_black.png',
     tags: ['Java', 'Springboot', 'SQL', 'MongoDB', 'Python', 'Bert NLP', 'Bloomberg', 'Symphony', 'React'],
     id: 1,
